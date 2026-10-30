@@ -93,12 +93,18 @@ img {
 /* TASK 4: Darken the photo so the heading is easy to read: blend the
    hero's background image with its brown background colour using
    the multiply blend mode. */
-
+.hero{
+  background-blend-mode: multiply;
+}
 
 
 /* TASK 5: Give the .hero h1 a text shadow:
    2px 2px 6px rgba(0, 0, 0, 0.6) */
-
+.hero{
+  h1 {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6) ;
+  }
+}
 
 
 /* TASK 6: Make every .card image the same shape with an aspect
