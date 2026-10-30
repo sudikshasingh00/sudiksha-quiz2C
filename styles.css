@@ -137,7 +137,11 @@ img {
 
 /* TASK 9: Make the .card photos a little richer: 110% contrast AND
    120% saturation, in ONE filter declaration. */
-
+.card {
+  img {
+    filter: contrast(110%) saturate(120%);
+  }
+}
 
 
 /* TASK 10: Give the footer a linear gradient background that runs
