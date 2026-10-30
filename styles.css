@@ -130,7 +130,9 @@ img {
 
 /* TASK 8: Give each .card a box shadow:
    0 4px 12px rgba(0, 0, 0, 0.2) */
-
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 
 
 /* TASK 9: Make the .card photos a little richer: 110% contrast AND
