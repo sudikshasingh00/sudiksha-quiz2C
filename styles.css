@@ -119,10 +119,13 @@ img {
   }
 }
 
-
 /* TASK 7: Give each .card 15px rounded corners, and stop the photo
    poking out of the rounded corners. */
-
+.card {
+  corner-shape: squircle;
+  border-radius: 15px;
+  overflow: hidden;
+}
 
 
 /* TASK 8: Give each .card a box shadow:
