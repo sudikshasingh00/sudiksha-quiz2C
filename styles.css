@@ -111,7 +111,13 @@ img {
    ratio of 3 / 2. Use object-fit so the photos crop instead of
    squashing, and object-position so the top of each photo shows
    (so Clover keeps her head). */
-
+.card{
+  img{
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    object-position: left top;
+  }
+}
 
 
 /* TASK 7: Give each .card 15px rounded corners, and stop the photo
