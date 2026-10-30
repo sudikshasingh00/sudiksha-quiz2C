@@ -83,7 +83,9 @@ img {
 
 /* TASK 3: Give the .hero the background image images/herd.jpg.
    Make it cover the whole hero and centre it. */
-
+.hero{
+  background-image: url(images/herd.jpg);
+}
 
 
 /* TASK 4: Darken the photo so the heading is easy to read: blend the
