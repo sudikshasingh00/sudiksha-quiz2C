@@ -85,6 +85,7 @@ img {
    Make it cover the whole hero and centre it. */
 .hero{
   background-image: url(images/herd.jpg);
+  background-position: center;
 }
 
 
