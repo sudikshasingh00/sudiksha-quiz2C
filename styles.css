@@ -74,7 +74,11 @@ footer {
 
 /* TASK 2: Give every image the baseline responsive style:
    display block, 100% of its container's width, and automatic height. */
-
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
 /* TASK 3: Give the .hero the background image images/herd.jpg.
