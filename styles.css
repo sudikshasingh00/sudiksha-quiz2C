@@ -147,5 +147,5 @@ img {
 /* TASK 10: Give the footer a linear gradient background that runs
    to the right, from #5b4636 to #b5835a. */
 footer{
-  background: linear-gradient ( to right #5b4636 to #b5835a);
+  background: linear-gradient ( 90deg #5b4636 to #b5835a);
 }
