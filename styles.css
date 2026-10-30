@@ -86,6 +86,7 @@ img {
 .hero{
   background-image: url(images/herd.jpg);
   background-position: center;
+  background-blend-mode: multiply;
 }
 
 
